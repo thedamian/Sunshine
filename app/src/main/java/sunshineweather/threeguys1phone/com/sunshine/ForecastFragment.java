@@ -158,6 +158,8 @@ public class ForecastFragment extends Fragment {
                     buffer.append(line + "\n");
                 }
 
+
+
                 if (buffer.length() == 0) {
                     // Stream was empty.  No point in parsing.
                     return null;
